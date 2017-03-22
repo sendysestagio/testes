@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Administrador\\Fds\\AGORA\\platforms\\android\\src\\main\\res\\drawable-nodpi\\splash_screen.xml"
     },
     {
+        "merged": "C:\\Users\\Administrador\\testes\\NewApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-nodpi-v4\\splash_screen.xml",
+        "source": "C:\\Users\\Administrador\\testes\\NewApp\\platforms\\android\\src\\main\\res\\drawable-nodpi\\splash_screen.xml"
+    },
+    {
         "merged": "C:\\Users\\Hugo\\MobileApps\\projetoVazio\\NewApp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-nodpi-v4\\splash_screen.xml",
         "source": "C:\\Users\\Hugo\\MobileApps\\projetoVazio\\NewApp\\platforms\\android\\src\\main\\res\\drawable-nodpi\\splash_screen.xml"
     }
