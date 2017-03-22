@@ -11,4 +11,5 @@ exports.principal = function() {
     // das me um ferrero ?
     // NAO CARALHO
     // EU PAGO-TE PARA ALGUMA COISA OH VELHO DE MERDA
+    // nao mereces um ferrero, senhora
 }
