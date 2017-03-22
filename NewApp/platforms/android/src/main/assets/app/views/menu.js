@@ -1,3 +1,3 @@
 exports.principal = function() {
-    console.info("ESTÁ A FUNCIONAR CARALHO");
+    //console.info("ESTÁ A FUNCIONAR CARALHO");
 }
