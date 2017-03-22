@@ -4,4 +4,7 @@ exports.principal = function() {
     //Ora boas pessoal
     //Daqui fala o Feromonas
     // E eu tenho um segredo
+
+    // testar cenas
+    // testando e bailando
 }
