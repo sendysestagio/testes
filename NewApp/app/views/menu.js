@@ -50,5 +50,7 @@ exports.principal = function() {
     .
     .
 
+    page.MANDAR O LAYOUT**
+
     */
 }
