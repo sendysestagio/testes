@@ -10,5 +10,5 @@ exports.principal = function() {
     // testando e bailando
     // This is my branch ****
     // Round 2 is back
-    // AHAHAHAH RACKEADO CARA HHUEHUEHUEHUE
+    // Xiu Lixo
 }
