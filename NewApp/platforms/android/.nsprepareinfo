@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
 	"time": "Wed Mar 22 2017 16:50:01 GMT+0000 (Hora padrão de GMT)",
+=======
+	"time": "Wed Mar 22 2017 16:46:39 GMT+0000 (Hora padrão de GMT)",
+>>>>>>> f8d4ada924eceb8b205e2d947652ff79b22776a7
 	"bundle": false,
 	"release": false,
 	"changesRequireBuild": false,
