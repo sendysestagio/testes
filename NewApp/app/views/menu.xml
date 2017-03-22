@@ -2,7 +2,6 @@
     <ActionBar title="Just Click" class="action-bar"></ActionBar>
 
     <StackLayout orientation="vertical">
-        <label text="PewDieMonas"/>
-        
+        <label text="SOU FODA SOU SINISTRO"/>
     </StackLayout>
 </Page>
