@@ -10,4 +10,5 @@ exports.principal = function() {
     // Ferrero Rocher: Satisfaz o desejo de requinte.
     // das me um ferrero ?
     // NAO CARALHO
+    // EU PAGO-TE PARA ALGUMA COISA OH VELHO DE MERDA
 }
