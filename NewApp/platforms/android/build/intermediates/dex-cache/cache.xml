@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-23.4.0_afa2499df12b24a1143f1a73f9e22c64452332f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-23.4.0_2787b937e5afb114cdee9ef0b0e5dec90d799f60.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8a73b09319cc3945912970487ced4c7724acc97d">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_daf61dc7acdb504991286b901c28103a9f6c0034.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_7a4233c3dbdac6eae1c2e571ca3cc5d0b46aa25c.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_4bc2f5f4c52b7856b2e2adeb931a4ded186ea1c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_396376f25500fc3ddc53b513ddabb0a6545af127.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\NewApp\runtime\unspecified\jars\libs\binding-generator.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_e7b5cbca65904c0411f1383fac4544c083bacc95.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_ee91bd118d8c7c0437824341bc4b633aaca19cb1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\NewApp\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="632bf39700c28ba66c117628dab343126ef89551">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\NewApp-runtime-unspecified_d9ec2f3b063e21c930dc425962d8d06f80c14bc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-23.4.0_c57db8b7c8ead5237ce2cebb5bd4f11f5f55d82e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Hugo\MobileApps\projetoVazio\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_6acf50d2c69d8ea738847e8bf26d0ee2e779ff51.jar" />
+    </item>
+
+</items>
