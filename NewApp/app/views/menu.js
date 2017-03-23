@@ -2,58 +2,18 @@ var page;
 var layout = require("ui/layouts/grid-layout");
 var labelModule = require("ui/label");
 var buttonModule = require("ui/button");
+var textfieldModule = require("ui/text-field");
+var comboboxModule = require("ui/combobox"); // <----- Inventado
+var checkboxModule = require("ui/checkbox"); // <----- Inventado
 
 exports.principal = function(args) {
     console.log("Welcom to Hugo's Branch");
     page = args.object;
 
-    /*
-
-    Json Creation of Layout
-
-    Case
-    if Json.type == "form"
-    then{
-        for(i = 0 ; i < Json.type.length ; i++)
-        {
-            Case
-            if Json.type[i] == "textbox"
-            then{
-                var textbox"[i]" = new TextBoxModule.TextBox;
-                textbox[i].id = Json.type[i].name;
-                textbox[i].val = Json.type[i].val;
-                textbox[i].text = Json.type[i].txt;
-                textbox[i].list = Json.type[i].list;
-            }
-
-            else if Json.type[i] == "combobox"
-            then{
-                var combobox"[i]" = new ComboBoxModule.ComboBox;
-                combobox[i].id = Json.type[i].name;
-                combobox[i].val = Json.type[i].val;
-                combobox[i].text = Json.type[i].txt;
-                combobox[i].list = Json.type[i].list;
-            }
-        }
-        
-    }
-
-    else if Json.type == "listview"
-    then{
-
-    }
-
-    .
-    .
-    .
-
-    page.MANDAR O LAYOUT**
-
-    */
 };
 
 exports.createTextView = function() {
-
+/*
     var newGridLayout = new layout.GridLayout();
     var label1 = new labelModule.Label();
     var label2 = new labelModule.Label();
@@ -77,28 +37,47 @@ exports.createTextView = function() {
     layout.GridLayout.setColumn(label2, 1);
     layout.GridLayout.setRow(label3, 1);
     layout.GridLayout.setColumn(label3, 2);
-    
+*/
+
     fetch("http://10.0.7.102/teste/form.json").then(response => { return response.json(); }).then(function (r) {
 
         var myJSON = r;
+        var fieldsSize = myJSON.fields.length;
 
-        switch(myJSON){
+        switch(myJSON.type){
 
             case "form":
                         var newGridLayout = new layout.GridLayout();
+                        var labelArray = new Array(fieldsSize);
+                        var textfieldArray = new Array(fieldsSize);
+                        var comboArray = new Array(fieldsSize);
+                        var checkboxArray = new Array(fieldsSize);
+                        var buttonArray = new Array(fieldsSize);
 
-                        for( i = 0 ; i < myJSON.fields.length ; i++ ){
-
+                        for( i = 0 ; i < fieldsSize ; i++ ){
+        
                             switch(myJSON.fields[i].type){
 
                                 case "textbox":
-                                                var textboxY = new textboxModule.Textbox
-                                                textboxY.name = myJSON.fields[i].name;
-                                                textboxY.val = myJSON.fields[i].val;
-                                                textboxY.txt = myJSON.fields[i].txt;
-                                                textboxY.List = myJSON.fields[i].List;
+                                                textfieldArray[i] = new textfieldModule.TextField; // <-- Not Sure
+                                                textfieldArray[i].name = myJSON.fields[i].name;
+                                                textfieldArray[i].val = myJSON.fields[i].val;
+                                                textfieldArray[i].txt = myJSON.fields[i].txt;
+                                                textfieldArray[i].List = myJSON.fields[i].List;
 
                                                 break;
+                                
+                                case "label":
+                                                labelArray[i] = new textfieldModule.TextField; // <-- Not Sure
+                                                labelArray[i].name = myJSON.fields[i].name;
+                                                labelArray[i].val = myJSON.fields[i].val;
+                                                labelArray[i].txt = myJSON.fields[i].txt;
+                                                labelArray[i].List = myJSON.fields[i].List;
+
+                                                break;
+
+                                default:
+                                        break;
 
                             }
 
@@ -111,6 +90,8 @@ exports.createTextView = function() {
         }
 
 	});
+
+    /*
 
     newGridLayout.addChild(label1);
     newGridLayout.addChild(label2);
@@ -126,5 +107,6 @@ exports.createTextView = function() {
     page.getViewById("label1").text = "Comé";
 
     console.log("oi");
- 
+    */
+
 };
