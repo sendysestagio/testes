@@ -52,6 +52,15 @@ exports.principal = function(args) {
     */
 };
 
+function GetJson() {
+	fetch("http://10.0.7.102/teste/cores.json").then(response => { return response.json(); }).then(function (r) {
+    
+    myJSON = r;
+
+	});
+
+};
+
 exports.createTextView = function() {
 
     var newGridLayout = new layout.GridLayout();
@@ -63,11 +72,17 @@ exports.createTextView = function() {
     var firstRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
     var secondRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
     var count = 0;
+    
+    GetJson();
+
+    var colorRed = myJSON.red;
 
     label1.text = "Olá";
     label2.text = "Como vai?";
     label3.text = "Tudo bem?";
 
+    label1.style.background = "#000";
+    console.log(colorRed);
     layout.GridLayout.setColumn(label1, 0);
     layout.GridLayout.setColumn(label2, 1);
     layout.GridLayout.setRow(label3, 1);
@@ -87,6 +102,10 @@ exports.createTextView = function() {
     newGridLayout.addChild(label1);
     newGridLayout.addChild(label2);
     newGridLayout.addChild(label3);
+    newGridLayout.addChild(label1);
+    newGridLayout.addChild(label2);
+    newGridLayout.addChild(label3);
+    
     newGridLayout.addColumn(firstColumn);
     newGridLayout.addColumn(secondColumn);
     newGridLayout.addRow(firstRow);
@@ -95,6 +114,5 @@ exports.createTextView = function() {
     page.content = newGridLayout;
 
     console.log("oi");
-
  
 };
