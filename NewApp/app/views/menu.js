@@ -10,8 +10,6 @@ exports.principal = function(args) {
     var num_label = 0;
     
     for (cont = 0; cont <= 9; cont++) {
-        num_label += 1;
-
         // array
         var arraylbl = new Array(cont);
 
@@ -27,7 +25,7 @@ exports.principal = function(args) {
 
         // enquanto o contador é menor ou igual que 4 fica na linha 0
         if (cont <= 4) {
-            layout.GridLayout.setColumn(arraylbl[cont], cont);
+            layout.GridLayout.setColumn(arraylbl[cont], num_label);
         }
 
         // quando o contador chegar a 5, a linha muda para 1
@@ -48,7 +46,7 @@ exports.principal = function(args) {
 
         var row = new layout.ItemSpec(1, layout.GridUnitType.auto);    
         gridLayout.addRow(row); 
-
+        num_label += 1;
         console.info(arraylbl[cont].text);
     }
 
