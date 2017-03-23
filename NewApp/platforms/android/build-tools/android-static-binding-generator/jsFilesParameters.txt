@@ -1,4 +1,11 @@
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\app.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\radiogroup.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\directives.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\index.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\module.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\radiobutton.component.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\angular\radiogroup.component.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-radiobutton\hooks\before-livesync\nativescript-angular-sync.js
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js
@@ -108,6 +115,13 @@ C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_m
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\progress\progress-common.js
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\progress\progress.js
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\proxy-view-container\proxy-view-container.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radio-button\radiogroup.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radio-button\angular\directives.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radio-button\angular\index.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radio-button\angular\module.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radio-button\angular\radiobutton.component.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radio-button\angular\radiogroup.component.js
+C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\radio-button\hooks\before-livesync\nativescript-angular-sync.js
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\repeater\repeater.js
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\scroll-view\scroll-view-common.js
 C:\Users\Administrador\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\ui\scroll-view\scroll-view.js
