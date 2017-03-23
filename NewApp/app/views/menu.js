@@ -58,14 +58,20 @@ exports.createTextView = function() {
     var label1 = new labelModule.Label();
     var label2 = new labelModule.Label();
     var label3 = new labelModule.Label();
+    var button1 = new buttonModule.Button();
     var firstColumn = new layout.ItemSpec(1, layout.GridUnitType.auto);
     var secondColumn = new layout.ItemSpec(1, layout.GridUnitType.auto);
     var firstRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
     var secondRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
 
     label1.text = "Olá";
+    label1.id = "label1";
+
     label2.text = "Como vai?";
+    label1.id = "label2";
+
     label3.text = "Tudo bem?";
+    label1.id = "label3";
 
     layout.GridLayout.setColumn(label1, 0);
     layout.GridLayout.setColumn(label2, 1);
@@ -91,6 +97,8 @@ exports.createTextView = function() {
     newGridLayout.addRow(secondRow);
 
     page.content = newGridLayout;
+
+    page.getViewById("label1").text = "Comé";
 
     console.log("oi");
  
