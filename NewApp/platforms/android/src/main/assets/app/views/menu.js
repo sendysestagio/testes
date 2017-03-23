@@ -1,4 +1,5 @@
 var page;
+var http = require("http");
 var layout = require("ui/layouts/stack-layout");
 var labelModule = require("ui/label");
 var buttonModule = require("ui/button");
@@ -38,7 +39,7 @@ exports.createTextView = function() {
     layout.GridLayout.setColumn(label3, 2);
 */
 
-    fetch("http://10.0.7.102/teste/form.json").then(response => { return response.json(); }).then(function (r) {
+    fetch("http://10.0.7.102/teste/form2.json").then(response => { return response.json(); }).then(function (r) {
 
         var myJSON = r;
         var fieldsSize = myJSON.fields.length;
@@ -108,14 +109,17 @@ exports.createTextView = function() {
                                                 break;
 
                                 case "button":
-                                                buttonArray[i] = new checkboxModule.CheckBox;
+                                                buttonArray[i] = new buttonModule.Button;
                                                 buttonArray[i].name = myJSON.fields[i].name;
                                                 buttonArray[i].val = myJSON.fields[i].val;
                                                 buttonArray[i].txt = myJSON.fields[i].txt;
                                                 buttonArray[i].List = myJSON.fields[i].List;
 
                                                 buttonArray[i].on(buttonModule.Button.tapEvent, function() {
-                                                    switch(myJSON.fields[i].tap){
+
+                                                    http.getJSON("http://10.0.7.102/teste/cores.json").then(function (r) {
+
+                                                         switch(r.fields[i].func){
 
                                                         case "alert":
                                                                      alert("Oi");
@@ -125,9 +129,13 @@ exports.createTextView = function() {
                                                                 break;
                                                     }
 
+                                                    }, function (e) {
+                                                    console.log(e); 
+                                                    });
+
                                                 });
 
-                                                newStackLayout.addChild(checkboxArray[i]);
+                                                newStackLayout.addChild(buttonArray[i]);
 
                                                 break;
 
