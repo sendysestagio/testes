@@ -1,4 +1,5 @@
 C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\src\main\assets\app\app.js
+C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-checkbox\checkbox.js
 C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down-common.js
 C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\nativescript-drop-down\drop-down.js
 C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js

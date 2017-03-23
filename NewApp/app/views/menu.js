@@ -3,8 +3,8 @@ var layout = require("ui/layouts/stack-layout");
 var labelModule = require("ui/label");
 var buttonModule = require("ui/button");
 var textfieldModule = require("ui/text-field");
-var dropdownModule = require("node_modules/nativescript-checkbox");
-var checkboxModule = require("node_modules/nativescript-drop-down");
+var dropdownModule = require("nativescript-drop-down");
+var checkboxModule = require("nativescript-checkbox");
 
 exports.principal = function(args) {
     console.log("Welcom to Hugo's Branch");
