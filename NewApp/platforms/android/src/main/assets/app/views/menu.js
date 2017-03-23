@@ -2,9 +2,14 @@ var labelModule = require("ui/label");
 var layout = require("ui/layouts/grid-layout");
 
 exports.principal = function(args) {
-
     page = args.object;
 
+    readJson();
+    drawGrid();
+
+}
+
+drawGrid = function() {
     var gridLayout = new layout.GridLayout();
 
     var num_label = 0;
@@ -22,6 +27,8 @@ exports.principal = function(args) {
         // name label
         arraylbl[cont].className = "lbl" + cont;
 
+        // color label
+        arraylbl[cont].backgroundColor = "#0f0";
 
         // enquanto o contador é menor ou igual que 4 fica na linha 0
         if (cont <= 4) {
@@ -50,5 +57,35 @@ exports.principal = function(args) {
         console.info(arraylbl[cont].text);
     }
 
+    gridLayout.backgroundColor = "#f00";
     page.content = gridLayout;
+}
+
+readJson = function() {
+    fetch("http://10.0.7.102/teste/form.json").then(response => { 
+        return response.json();
+     })
+     .then(function (r) {
+        // get number of types
+        var valor = r;
+        var numTypes = Object.keys(valor.type).length;
+        console.info("Types: " + numTypes);
+    
+        porraMeu(valor, numTypes);
+
+	});    
+}
+
+porraMeu = function(valueJson, number) {
+    console.info(number);
+    console.info(JSON.stringify(valueJson));
+
+    var testingArray = new Array(number);        
+    console.info("passou o array");
+
+    // get name of types
+    for (i = 0; i <= number; i++) {
+         testingArray[i] = valueJson.fields[i].type;
+         console.info(testingArray[i]);
+    }
 }
