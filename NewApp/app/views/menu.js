@@ -3,8 +3,8 @@ var layout = require("ui/layouts/stack-layout");
 var labelModule = require("ui/label");
 var buttonModule = require("ui/button");
 var textfieldModule = require("ui/text-field");
-// var comboboxModule = require("ui/combobox"); // <----- Inventado
-// var checkboxModule = require("ui/checkbox"); // <----- Inventado
+var dropdownModule = require("node_modules/nativescript-checkbox");
+var checkboxModule = require("node_modules/nativescript-drop-down");
 
 exports.principal = function(args) {
     console.log("Welcom to Hugo's Branch");
@@ -49,7 +49,7 @@ exports.createTextView = function() {
                         var newStackLayout = new layout.StackLayout();
                         var labelArray = new Array(fieldsSize);
                         var textfieldArray = new Array(fieldsSize);
-                        var comboArray = new Array(fieldsSize);
+                        var dropdownArray = new Array(fieldsSize);
                         var checkboxArray = new Array(fieldsSize);
                         var buttonArray = new Array(fieldsSize);
 
@@ -58,7 +58,7 @@ exports.createTextView = function() {
                             switch(myJSON.fields[i].type){
 
                                 case "textbox":
-                                                textfieldArray[i] = new textfieldModule.TextField; // <-- Not Sure
+                                                textfieldArray[i] = new textfieldModule.TextField;
                                                 textfieldArray[i].name = myJSON.fields[i].name;
                                                 textfieldArray[i].val = myJSON.fields[i].val;
                                                 textfieldArray[i].txt = myJSON.fields[i].txt;
@@ -69,11 +69,35 @@ exports.createTextView = function() {
                                                 break;
                                 
                                 case "label":
-                                                labelArray[i] = new textfieldModule.TextField; // <-- Not Sure
+                                                labelArray[i] = new labelModule.Label;
                                                 labelArray[i].name = myJSON.fields[i].name;
                                                 labelArray[i].val = myJSON.fields[i].val;
                                                 labelArray[i].txt = myJSON.fields[i].txt;
                                                 labelArray[i].List = myJSON.fields[i].List;
+
+                                                newStackLayout.addChild(labelArray[i]);
+
+                                                break;
+
+                                case "combo":
+                                                dropdownArray[i] = new dropdownModule.DropDown;
+                                                dropdownArray[i].name = myJSON.fields[i].name;
+                                                dropdownArray[i].val = myJSON.fields[i].val;
+                                                dropdownArray[i].txt = myJSON.fields[i].txt;
+                                                dropdownArray[i].List = myJSON.fields[i].List;
+
+                                                newStackLayout.addChild(dropdownArray[i]);
+
+                                                break;
+
+                                case "checkbox":
+                                                checkboxArray[i] = new checkboxModule.CheckBox;
+                                                checkboxArray[i].name = myJSON.fields[i].name;
+                                                checkboxArray[i].val = myJSON.fields[i].val;
+                                                checkboxArray[i].txt = myJSON.fields[i].txt;
+                                                checkboxArray[i].List = myJSON.fields[i].List;
+
+                                                newStackLayout.addChild(checkboxArray[i]);
 
                                                 break;
 
