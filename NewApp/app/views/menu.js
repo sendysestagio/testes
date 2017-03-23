@@ -1,10 +1,10 @@
 var page;
-var layout = require("ui/layouts/grid-layout");
+var layout = require("ui/layouts/stack-layout");
 var labelModule = require("ui/label");
 var buttonModule = require("ui/button");
 var textfieldModule = require("ui/text-field");
-var comboboxModule = require("ui/combobox"); // <----- Inventado
-var checkboxModule = require("ui/checkbox"); // <----- Inventado
+// var comboboxModule = require("ui/combobox"); // <----- Inventado
+// var checkboxModule = require("ui/checkbox"); // <----- Inventado
 
 exports.principal = function(args) {
     console.log("Welcom to Hugo's Branch");
@@ -47,7 +47,7 @@ exports.createTextView = function() {
         switch(myJSON.type){
 
             case "form":
-                        var newGridLayout = new layout.GridLayout();
+                        var newStackLayout = new layout.StackLayout();
                         var labelArray = new Array(fieldsSize);
                         var textfieldArray = new Array(fieldsSize);
                         var comboArray = new Array(fieldsSize);
@@ -64,6 +64,8 @@ exports.createTextView = function() {
                                                 textfieldArray[i].val = myJSON.fields[i].val;
                                                 textfieldArray[i].txt = myJSON.fields[i].txt;
                                                 textfieldArray[i].List = myJSON.fields[i].List;
+
+                                                newStackLayout.addChild(textfieldArray[i]);
 
                                                 break;
                                 
@@ -82,6 +84,8 @@ exports.createTextView = function() {
                             }
 
                         }
+
+                        page.content = newStackLayout;
 
                         break;
 
