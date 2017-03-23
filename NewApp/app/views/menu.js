@@ -24,7 +24,6 @@ exports.createTextView = function() {
     var firstRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
     var secondRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
 
-    label1.text = "Olá";
     label1.id = "label1";
 
     label2.text = "Como vai?";
