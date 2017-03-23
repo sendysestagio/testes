@@ -1,17 +1,27 @@
-var createViewModel = require("./main-view-model").createViewModel;
+//var createViewModel = require("./main-view-model").createViewModel;
 
+//var http = require("http");
 
 var page;
 
 
-exports.load1 = function() {
+exports.load1 = function(args) {
     page = args.Object;
 }
 
+
 exports.fetchteste = function(){
-    fetch("http://10.0.7.102/teste/cores.json").then(response => { return response.json(); }).then(function (r){
+    console.log("ENTREI");
+    fetch("C:\Users\User\Desktop\database_teste\cores.json").then(response => {
+        return response.json();
+        console.log("RETURNED"); 
+    })
+    .then(function (r) {
         var myJSON = r;
-        var nomeValue = myJSON.nome;
+        var nomeValue = myJSON.green;
         console.log(nomeValue);
-    });
-};
+        console.log("123");
+        //page.GetViewById("labelteste").text = "123";
+    })
+}
+
