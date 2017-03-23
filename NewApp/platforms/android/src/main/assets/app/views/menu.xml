@@ -2,7 +2,8 @@
     <ActionBar title="Just Click" class="action-bar"></ActionBar>
 
     <StackLayout orientation="vertical">
-        <label text="PewDieMonas"/>
+        <label text="First Label - xml" />
+        <label text="Second Label - xml" />
         
     </StackLayout>
 </Page>
