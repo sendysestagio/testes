@@ -84,7 +84,13 @@ exports.createTextView = function() {
                                                 dropdownArray[i].name = myJSON.fields[i].name;
                                                 dropdownArray[i].val = myJSON.fields[i].val;
                                                 dropdownArray[i].txt = myJSON.fields[i].txt;
-                                                dropdownArray[i].List = myJSON.fields[i].List;
+
+                                                dropdownArray[i].items = "";
+
+                                                for( j = 0 ; j < myJSON.fields[i].List.length ; j++ ){
+                                                    dropdownArray[i].items += myJSON.fields[i].List[j].val;
+
+                                                }
 
                                                 newStackLayout.addChild(dropdownArray[i]);
 
@@ -96,6 +102,30 @@ exports.createTextView = function() {
                                                 checkboxArray[i].val = myJSON.fields[i].val;
                                                 checkboxArray[i].txt = myJSON.fields[i].txt;
                                                 checkboxArray[i].List = myJSON.fields[i].List;
+
+                                                newStackLayout.addChild(checkboxArray[i]);
+
+                                                break;
+
+                                case "button":
+                                                buttonArray[i] = new checkboxModule.CheckBox;
+                                                buttonArray[i].name = myJSON.fields[i].name;
+                                                buttonArray[i].val = myJSON.fields[i].val;
+                                                buttonArray[i].txt = myJSON.fields[i].txt;
+                                                buttonArray[i].List = myJSON.fields[i].List;
+
+                                                buttonArray[i].on(buttonModule.Button.tapEvent, function() {
+                                                    switch(myJSON.fields[i].tap){
+
+                                                        case "alert":
+                                                                     alert("Oi");
+                                                                     break;
+
+                                                        default:
+                                                                break;
+                                                    }
+
+                                                });
 
                                                 newStackLayout.addChild(checkboxArray[i]);
 
