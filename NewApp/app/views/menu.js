@@ -1,5 +1,12 @@
-exports.principal = function() {
+var page;
+var layout = require("ui/layouts/grid-layout");
+var labelModule = require("ui/label");
+var buttonModule = require("ui/button");
+
+exports.principal = function(args) {
     console.log("Welcom to Hugo's Branch");
+    page = args.object;
+
     /*
 
     Json Creation of Layout
@@ -43,4 +50,51 @@ exports.principal = function() {
     page.MANDAR O LAYOUT**
 
     */
-}
+};
+
+exports.createTextView = function() {
+
+    var newGridLayout = new layout.GridLayout();
+    var label1 = new labelModule.Label();
+    var label2 = new labelModule.Label();
+    var label3 = new labelModule.Label();
+    var firstColumn = new layout.ItemSpec(1, layout.GridUnitType.auto);
+    var secondColumn = new layout.ItemSpec(1, layout.GridUnitType.auto);
+    var firstRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
+    var secondRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
+    var count = 0;
+
+    label1.text = "Olá";
+    label2.text = "Como vai?";
+    label3.text = "Tudo bem?";
+
+    layout.GridLayout.setColumn(label1, 0);
+    layout.GridLayout.setColumn(label2, 1);
+    layout.GridLayout.setRow(label3, 1);
+    layout.GridLayout.setColumn(label3, 2);
+    
+
+    fetch("http://10.0.7.102/teste/form.json").then(response => { return response.json(); }).then(function (r) {
+    
+    console.dump(r.fields);
+    console.dump(r.fields);
+    console.log(r.fields["0"].name);
+    console.log(r.fields[0].name);
+    console.log("oi");
+
+	});
+
+    newGridLayout.addChild(label1);
+    newGridLayout.addChild(label2);
+    newGridLayout.addChild(label3);
+    newGridLayout.addColumn(firstColumn);
+    newGridLayout.addColumn(secondColumn);
+    newGridLayout.addRow(firstRow);
+    newGridLayout.addRow(secondRow);
+
+    page.content = newGridLayout;
+
+    console.log("oi");
+
+ 
+};

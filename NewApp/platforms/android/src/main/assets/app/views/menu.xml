@@ -3,6 +3,8 @@
 
     <StackLayout orientation="vertical">
         <label text="PewDieMonas"/>
+        <Button text="#Codes" id="btn1" tap="createTextView" />
         
     </StackLayout>
+
 </Page>
