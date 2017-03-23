@@ -1,15 +1,17 @@
-exports.principal = function() {
-    //console.info("ESTÁ A FUNCIONAR CARALHO");
-    //TESTE
-    //Ora boas pessoal
-    //Daqui fala o Feromonas
-    // E eu tenho um segredo
+var createViewModel = require("./main-view-model").createViewModel;
 
-    // testar cenas
-    // testando e bailando
-    // Ferrero Rocher: Satisfaz o desejo de requinte.
-    // das me um ferrero ?
-    // NAO CARALHO
-    // EU PAGO-TE PARA ALGUMA COISA OH VELHO DE MERDA
-    // nao mereces um ferrero, senhora
+
+var page;
+
+
+exports.load1 = function() {
+    page = args.Object;
 }
+
+exports.fetchteste = function(){
+    fetch("http://10.0.7.102/teste/cores.json").then(response => { return response.json(); }).then(function (r){
+        var myJSON = r;
+        var nomeValue = myJSON.nome;
+        console.log(nomeValue);
+    });
+};

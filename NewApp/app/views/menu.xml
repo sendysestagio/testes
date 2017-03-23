@@ -1,7 +1,7 @@
-<Page loaded="principal">
+<Page loaded="load1">
     <ActionBar title="Just Click" class="action-bar"></ActionBar>
 
     <StackLayout orientation="vertical">
-        <label text="SOU FODA SOU SINISTRO"/>
+        <label text="" id="labelteste" loaded="fetchteste"/>
     </StackLayout>
 </Page>
