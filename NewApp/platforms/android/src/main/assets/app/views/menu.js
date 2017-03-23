@@ -3,8 +3,8 @@ var layout = require("ui/layouts/stack-layout");
 var labelModule = require("ui/label");
 var buttonModule = require("ui/button");
 var textfieldModule = require("ui/text-field");
-var comboboxModule = require("ui/combobox"); // <----- Inventado
-var checkboxModule = require("ui/checkbox"); // <----- Inventado
+// var comboboxModule = require("ui/combobox"); // <----- Inventado
+// var checkboxModule = require("ui/checkbox"); // <----- Inventado
 
 exports.principal = function(args) {
     console.log("Welcom to Hugo's Branch");
