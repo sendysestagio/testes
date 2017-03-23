@@ -1,9 +1,7 @@
-<Page loaded="principal">
+<Page id="oi" loaded="principal">
     <ActionBar title="Just Click" class="action-bar"></ActionBar>
-
     <StackLayout orientation="vertical">
-        <label text="SOU FODA"/>
-        <label text="Na sala ou no quarto"/>
-        
+        <Button testAttr="flower" id="clicck" text="SOU FODA" tap="sou" />
+        <Button text="Na sala ou no quarto" tap="sala" />
     </StackLayout>
 </Page>
