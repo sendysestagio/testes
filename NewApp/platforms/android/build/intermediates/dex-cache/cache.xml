@@ -2,81 +2,116 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-23.4.0_6f9ed6168fcef52c69b78abf3f5d51e51dbd3a45.jar" />
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-media-compat-25.3.0_647e3d560e1513344553f2c299c72b7b84296306.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_c2b06375e9b06928337e8e004238b233f815d600.jar" />
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-ui-25.3.0_565ef0922e2adb9741d2a8b5de075209b30c11c1.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\NewApp\runtime\unspecified\jars\classes.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\design\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="632bf39700c28ba66c117628dab343126ef89551">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\NewApp-runtime-unspecified_e2eafe09ae6042eb2590a9f854669a882faa5478.jar" />
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-25.3.0_89198a065d8c2f9927e1cdd63db83ad94e4cf692.jar" />
     </item>
     <item
-        jar="C:\Users\Luís Francisco\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-23.4.0_ca29addfb86df0b80cd71b69b7a5035727277fac.jar" />
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-25.3.0_11c3c593fbbdb86851076c5097103aab2a841343.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="8a73b09319cc3945912970487ced4c7724acc97d">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_a850cea1c62960e0f91994cbccb5006972935c3c.jar" />
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-25.3.0_c3df4395bfdb66083041a26a93ec4c0f83081cf1.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_1991c7d2e476cf4185c1301f41810c31cda7e8b5.jar" />
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-25.3.0_6bc3bc0b30eda7117ff8cc0f98c6e48a2d8f0f7f.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-23.4.0_590f97ef3a732cb2d8b6832ff5102c3bd17f4b67.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-25.3.0_da7dea582a2308a684f0abb0ce82e9df8cb302ad.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-23.4.0_c5c078c780d2ccfc092bc7f52ce3f0a1a2c5a6d3.jar" />
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-fragment-25.3.0_67a9d9d506aa7dbd5ad4bc3df26668001f07ab1b.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-23.4.0_ed0dc0c34aed1aab5d7939bca6992ffa8d2e7779.jar" />
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-utils-25.3.0_f825524bf85e12f64191fba8a4a6b23b6c0f1fee.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-23.4.0_a93469fa2444867c632780314bfef23c6ab345af.jar" />
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-compat-25.3.0_e67357a9f516352e5725015a9a98b7e1082dc934.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\NewApp\runtime\unspecified\jars\libs\binding-generator.jar"
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\NewApp\runtime\unspecified\jars\libs\binding-generator.jar"
         jumboMode="false"
         revision="25.0.2"
         sha1="d82f3ca98719f09b65db6aeaf450ad3bafc46e81">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_ced5168fffec1918ef701efd8801fb30c6c4b400.jar" />
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\binding-generator_333323ccd2b1aadaef402d8139e9ac15b0c11bc9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Miguel\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-25.3.0_4da40339cc4dc54cee8afb14e329dab6db7a2f9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-transition-25.3.0_aebecb5a0178cbc8afd1d38ebfe96478db57e53c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\NewApp\runtime\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="632bf39700c28ba66c117628dab343126ef89551">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\NewApp-runtime-unspecified_68a53f194f9c44e1463705d765683fd96b48cfd6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="8a73b09319cc3945912970487ced4c7724acc97d">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_217baebd6dac95e73f69c0a9bce19b8ca44940c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\Users\Miguel\Documents\GitHub\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-25.3.0_50b6fcdfb3658e9c034251a96863c1843edaeb23.jar" />
     </item>
 
 </items>
