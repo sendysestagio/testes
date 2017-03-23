@@ -1,5 +1,5 @@
 var labelModule = require("ui/label");
-var layout = require("ui/layouts/grid-layout");
+// var layout = require("ui/layouts/grid-layout");
 var stackLayout = require("ui/layouts/stack-layout");
 
 exports.principal = function(args) {
@@ -23,7 +23,10 @@ readJson = function() {
 }
 
 drawGrid = function(jsonValue, numCol) {
-    var gridLayout = new layout.GridLayout();
+   
+   var stack = new stackLayout.StackLayout();
+
+   // var gridLayout = new layout.GridLayout();
     var num_label = 0;
     
     for (cont = 0; cont < numCol; cont++) {
@@ -43,12 +46,13 @@ drawGrid = function(jsonValue, numCol) {
      //   var row = new layout.ItemSpec(1, layout.GridUnitType.auto);    
        // gridLayout.addRow(row); 
 
-      
+      stack.addChild(arraylbl[cont]);
 
 
         num_label += 1;
     }
 
-    gridLayout.backgroundColor = "#7FFFD4";
-    page.content = gridLayout;
+    // gridLayout.backgroundColor = "#7FFFD4";
+   // page.content = gridLayout;
+    page.content = stack;
 }
