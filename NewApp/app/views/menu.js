@@ -1,4 +1,4 @@
-var page;
+var page = require("./views/menu");
 
 exports.principal = function(args){
     page = args.Object;
@@ -10,8 +10,6 @@ exports.sou = function(){
      //   var bgpage = page.getElementByView("oi");
         var redbg = jsonfile.red;
         console.log(redbg);
-
-    //    bgpage.style.background = "#f00";
 
         return redbg;
     })
