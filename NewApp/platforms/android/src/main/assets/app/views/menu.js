@@ -80,10 +80,35 @@ exports.createTextView = function() {
     
     fetch("http://10.0.7.102/teste/form.json").then(response => { return response.json(); }).then(function (r) {
 
-    for( i = 0 ; i < r.fields.length ; i++ )
-    {
-         console.log(r.fields[i].type);
-    }
+        var myJSON = r;
+
+        switch(myJSON){
+
+            case "form":
+                        var newGridLayout = new layout.GridLayout();
+
+                        for( i = 0 ; i < myJSON.fields.length ; i++ ){
+
+                            switch(myJSON.fields[i].type){
+
+                                case "textbox":
+                                                var textboxY = new textboxModule.Textbox
+                                                textboxY.name = myJSON.fields[i].name;
+                                                textboxY.val = myJSON.fields[i].val;
+                                                textboxY.txt = myJSON.fields[i].txt;
+                                                textboxY.List = myJSON.fields[i].List;
+
+                                                break;
+
+                            }
+
+                        }
+
+                        break;
+
+            default:
+                    return;
+        }
 
 	});
 
