@@ -115,25 +115,18 @@ exports.createTextView = function() {
                                                 buttonArray[i].txt = myJSON.fields[i].txt;
                                                 buttonArray[i].List = myJSON.fields[i].List;
 
-                                                buttonArray[i].on(buttonModule.Button.tapEvent, function() {
-
-                                                    http.getJSON("http://10.0.7.102/teste/cores.json").then(function (r) {
-
-                                                         switch(r.fields[i].func){
+                                                console.log(myJSON.fields[i].func);
+                                                switch(myJSON.fields[i].func){
 
                                                         case "alert":
-                                                                     alert("Oi");
+                                                                     buttonArray[i].on(buttonModule.Button.tapEvent, function() {
+                                                                        alert("Oi");
+                                                                     });
                                                                      break;
 
                                                         default:
                                                                 break;
                                                     }
-
-                                                    }, function (e) {
-                                                    console.log(e); 
-                                                    });
-
-                                                });
 
                                                 newStackLayout.addChild(buttonArray[i]);
 
