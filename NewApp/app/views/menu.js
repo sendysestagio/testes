@@ -13,31 +13,12 @@ exports.principal = function(args) {
 
 };
 
+
+exports.ola = function() {
+    alert("oi");
+}
+
 exports.createTextView = function() {
-/*
-    var newGridLayout = new layout.GridLayout();
-    var label1 = new labelModule.Label();
-    var label2 = new labelModule.Label();
-    var label3 = new labelModule.Label();
-    var button1 = new buttonModule.Button();
-    var firstColumn = new layout.ItemSpec(1, layout.GridUnitType.auto);
-    var secondColumn = new layout.ItemSpec(1, layout.GridUnitType.auto);
-    var firstRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
-    var secondRow = new layout.ItemSpec(1, layout.GridUnitType.auto);
-
-    label1.id = "label1";
-
-    label2.text = "Como vai?";
-    label1.id = "label2";
-
-    label3.text = "Tudo bem?";
-    label1.id = "label3";
-
-    layout.GridLayout.setColumn(label1, 0);
-    layout.GridLayout.setColumn(label2, 1);
-    layout.GridLayout.setRow(label3, 1);
-    layout.GridLayout.setColumn(label3, 2);
-*/
 
     fetch("http://10.0.7.102/teste/form2.json").then(response => { return response.json(); }).then(function (r) {
         
@@ -122,23 +103,7 @@ exports.createTextView = function() {
                                                 buttonArray[i].txt = myJSON.fields[i].txt;
                                                 buttonArray[i].List = myJSON.fields[i].List;
 
-                                                console.log(myJSON.fields[i].func);
-                                                switch(myJSON.fields[i].func){
-
-                                                        case "alert":
-                                                                     buttonArray[i].on(buttonModule.Button.tapEvent, function() {
-                                                                        alert("Oi");
-                                                                     });
-                                                                     break;
-
-                                                        case "back":
-                                                                     buttonArray[i].on(buttonModule.Button.tapEvent, function() {
-                                                                        
-                                                                     });
-
-                                                        default:
-                                                                break;
-                                                    }
+                                                buttonArray[i].on(buttonModule.Button.tapEvent, buttonArray[i].func );
 
                                                 newStackLayout.addChild(buttonArray[i]);
 
@@ -151,6 +116,10 @@ exports.createTextView = function() {
 
                         }
 
+                        var buttonSubmit = new buttonModule.Button();
+                        buttonSubmit.text = "Submit";
+                        newStackLayout.addChild(buttonSubmit);
+
                         page.content = newStackLayout;
 
                         break;
@@ -160,23 +129,5 @@ exports.createTextView = function() {
         }
 
 });
-
-    /*
-
-    newGridLayout.addChild(label1);
-    newGridLayout.addChild(label2);
-    newGridLayout.addChild(label3);
-    
-    newGridLayout.addColumn(firstColumn);
-    newGridLayout.addColumn(secondColumn);
-    newGridLayout.addRow(firstRow);
-    newGridLayout.addRow(secondRow);
-
-    page.content = newGridLayout;
-
-    page.getViewById("label1").text = "Comé";
-
-    console.log("oi");
-    */
 
 };
