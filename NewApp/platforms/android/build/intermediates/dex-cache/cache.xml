@@ -16,13 +16,6 @@
         <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-23.4.0_c2b06375e9b06928337e8e004238b233f815d600.jar" />
     </item>
     <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-23.4.0_590f97ef3a732cb2d8b6832ff5102c3bd17f4b67.jar" />
-    </item>
-    <item
         jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\NewApp\runtime\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
@@ -44,6 +37,20 @@
         <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_a850cea1c62960e0f91994cbccb5006972935c3c.jar" />
     </item>
     <item
+        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_1991c7d2e476cf4185c1301f41810c31cda7e8b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-23.4.0_590f97ef3a732cb2d8b6832ff5102c3bd17f4b67.jar" />
+    </item>
+    <item
         jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
         jumboMode="false"
         revision="25.0.2"
@@ -56,13 +63,6 @@
         revision="25.0.2"
         sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
         <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-23.4.0_ed0dc0c34aed1aab5d7939bca6992ffa8d2e7779.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
-        revision="25.0.2"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\pre-dexed\F0\debug\internal_impl-23.4.0_1991c7d2e476cf4185c1301f41810c31cda7e8b5.jar" />
     </item>
     <item
         jar="C:\Users\Administrador\testes\NewApp\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"

@@ -5,7 +5,6 @@ var radioModule = require("ui/radio-button");
 var layout = require("ui/layouts/grid-layout");
 var stackLayout = require("ui/layouts/stack-layout");
 
-
 var x = 0;
 
 exports.principal = function(args) {
@@ -93,6 +92,31 @@ drawStack = function(jsonValue, numCol) {
     });
 
     stack.addChild(btn);
+
+    var radioGroup = new radioModule.RadioGroup();
+
+    radioGroup.value = "x";
+
+    var radio1 = new radioModule.RadioButton();
+    var radio2 = new radioModule.RadioButton();
+
+    // radio1.enabled = true;
+    radio1.text = "GridLayut";
+
+    radio1.on(buttonModule.Button.tapEvent,  function() {
+        console.info("radio1");
+    });
+
+   // radio2.enabled = true;
+    radio2.text = "StackLayout";
+
+    radio2.on(buttonModule.Button.tapEvent,  function() {
+        console.info("radio2");
+    });
+
+    radioGroup.addChild(radio1);
+    radioGroup.addChild(radio2);
+    stack.addChild(radioGroup);
     page.content = stack;
 }
 

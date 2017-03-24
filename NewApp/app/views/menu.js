@@ -103,16 +103,16 @@ drawStack = function(jsonValue, numCol) {
     // radio1.enabled = true;
     radio1.text = "GridLayut";
 
-    radio1.on(radioModule.RadioButton.change,  function() {
+    radio1.on(buttonModule.Button.tapEvent,  function() {
         console.info("radio1");
     });
 
    // radio2.enabled = true;
     radio2.text = "StackLayout";
 
-    radio2.checkChanged = function() {
+    radio2.on(buttonModule.Button.tapEvent,  function() {
         console.info("radio2");
-    }
+    });
 
     radioGroup.addChild(radio1);
     radioGroup.addChild(radio2);
