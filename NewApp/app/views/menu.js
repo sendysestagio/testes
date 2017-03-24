@@ -40,7 +40,14 @@ exports.createTextView = function() {
 */
 
     fetch("http://10.0.7.102/teste/form2.json").then(response => { return response.json(); }).then(function (r) {
-
+        
+        var f = '{ "nome":"hugo", "idade":17 }';
+        console.dump(f);
+        var myJSON2 = JSON.parse(f);
+        console.dump(myJSON2);
+        console.log(myJSON2.nome);
+        console.log(myJSON2.idade);
+        
         var myJSON = r;
         var fieldsSize = myJSON.fields.length;
 
@@ -126,9 +133,8 @@ exports.createTextView = function() {
 
                                                         case "back":
                                                                      buttonArray[i].on(buttonModule.Button.tapEvent, function() {
-                                                                        principal();
+                                                                        
                                                                      });
-                                                                     break;
 
                                                         default:
                                                                 break;
@@ -153,7 +159,7 @@ exports.createTextView = function() {
                     return;
         }
 
-	});
+});
 
     /*
 

@@ -39,9 +39,14 @@ exports.createTextView = function() {
     layout.GridLayout.setColumn(label3, 2);
 */
 
-    fetch("http://10.0.7.102/teste/form2.json").then(response => { return response.json(); }).then(function (r) {
-
-        var myJSON = r;
+ // fetch("http://10.0.7.102/teste/form2.json").then(response => { return response.json(); }).then(function (r) {
+        var r = '{ "nome":"hugo", "idade":17 }';
+        console.dump(r);
+        var myJSON = JSON.parse(r);
+        console.dump(myJSON);
+        console.log(myJSON.nome);
+        console.log(myJSON.idade);
+        /*
         var fieldsSize = myJSON.fields.length;
 
         switch(myJSON.type){
@@ -126,9 +131,8 @@ exports.createTextView = function() {
 
                                                         case "back":
                                                                      buttonArray[i].on(buttonModule.Button.tapEvent, function() {
-                                                                        principal();
+                                                                        
                                                                      });
-                                                                     break;
 
                                                         default:
                                                                 break;
@@ -152,8 +156,8 @@ exports.createTextView = function() {
             default:
                     return;
         }
-
-	});
+*/
+} /*)*/;
 
     /*
 
@@ -173,4 +177,4 @@ exports.createTextView = function() {
     console.log("oi");
     */
 
-};
+// };
