@@ -124,6 +124,12 @@ exports.createTextView = function() {
                                                                      });
                                                                      break;
 
+                                                        case "back":
+                                                                     buttonArray[i].on(buttonModule.Button.tapEvent, function() {
+                                                                        principal();
+                                                                     });
+                                                                     break;
+
                                                         default:
                                                                 break;
                                                     }
