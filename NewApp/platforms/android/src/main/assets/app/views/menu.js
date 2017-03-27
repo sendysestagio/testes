@@ -6,11 +6,15 @@ var buttonModule = require("ui/button");
 var textfieldModule = require("ui/text-field");
 var dropdownModule = require("nativescript-drop-down");
 var checkboxModule = require("nativescript-checkbox");
+var observable = require("data/observable");
+var myFunctions = new observable.Observable();
 
 exports.principal = function(args) {
     console.log("Welcom to Hugo's Branch");
     page = args.object;
-
+    var infoTeste = '{ "Function1" : "123" }';
+    console.dump(JSON.parse(infoTeste));
+    console.log(JSON.parse(infoTeste));
 };
 
 
@@ -96,8 +100,11 @@ exports.createTextView = function() {
                                                 buttonArray[i].txt = myJSON.fields[i].txt;
                                                 buttonArray[i].List = myJSON.fields[i].List;
 
-                                                console.log(myJSON.fields[i].func + "()" );
-                                                buttonArray[i].on(buttonModule.Button.tapEvent, myJSON.fields[i].func + "()" );
+                                                console.log(myJSON.fields[i].func );
+                                                buttonArray[i].on(buttonModule.Button.tapEvent, function() {
+                                                    this[myJSON.fields[i].func]();
+
+                                                } , this);
 
                                                 newStackLayout.addChild(buttonArray[i]);
 
